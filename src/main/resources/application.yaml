@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ae1462exam1
+
+datasource:
+  url
