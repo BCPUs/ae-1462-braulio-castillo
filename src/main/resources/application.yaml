@@ -2,5 +2,20 @@ spring:
   application:
     name: ae1462exam1
 
-datasource:
-  url
+  datasource:
+    url: jdbc:h2:mem:booksdb
+    driver-class-name: org.h2.Driver
+    username: admin
+    password: admin
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8787

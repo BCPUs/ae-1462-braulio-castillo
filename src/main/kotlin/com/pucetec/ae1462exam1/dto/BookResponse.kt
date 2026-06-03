@@ -1,4 +1,4 @@
-package com.pucetec.ae1473exam1.dto
+package com.pucetec.ae1462exam1.dto
 
 data class BookResponse(
     val id: Long,
